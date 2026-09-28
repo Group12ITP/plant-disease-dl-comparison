@@ -1,0 +1,28 @@
+# ==============================================================================
+# SE4050 - Deep Learning (SLIIT 2026)
+# Core Dependencies for Plant Leaf Disease Classification & Generalization Suite
+# Python Version: >= 3.10, < 3.12
+# ==============================================================================
+
+# Deep Learning Framework
+tensorflow>=2.15.0, <2.17.0
+
+# Scientific Computing & Data Processing
+numpy>=1.24.0, <2.0.0
+pandas>=2.0.0, <2.3.0
+scipy>=1.11.0
+
+# Machine Learning & Evaluation Metrics
+scikit-learn>=1.3.0, <1.6.0
+
+# Image Processing
+Pillow>=9.5.0, <11.0.0
+
+# Visualization & Plotting
+matplotlib>=3.7.0, <3.10.0
+seaborn>=0.12.0, <0.14.0
+
+# Progress Tracking & Notebook Utilities
+jupyterlab>=4.0.0
+notebook>=7.0.0
+tqdm>=4.65.0

@@ -1,0 +1,100 @@
+# ==============================================================================
+# SE4050 - Deep Learning: Project .gitignore
+# Prevents GitHub 100MB rejection and blocks raw image datasets from bloating repo
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. LARGE MODEL WEIGHTS & BINARIES (GitHub Hard Limit: 100 MB)
+# Note: resnet50.keras is 101.4 MB and will crash git push if not ignored!
+# ------------------------------------------------------------------------------
+results/models/*.keras
+results/models/*.h5
+*.keras
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+variables/
+
+# ------------------------------------------------------------------------------
+# 2. RAW DATASETS & ARCHIVES (Never commit 54,000+ raw images or zip files)
+# ------------------------------------------------------------------------------
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Local raw image directories
+PlantVillage/
+PlantDoc/
+data/
+dataset/
+datasets/
+content/
+
+# ------------------------------------------------------------------------------
+# 3. PYTHON & COMPILER ARTIFACTS
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ------------------------------------------------------------------------------
+# 4. JUPYTER NOTEBOOK RUNTIME & CHECKPOINTS
+# ------------------------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.pytest_cache/
+
+# ------------------------------------------------------------------------------
+# 5. VIRTUAL ENVIRONMENTS
+# ------------------------------------------------------------------------------
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------------------------------
+# 6. OPERATING SYSTEM & IDE ARTIFACTS
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary scratch directories
+scratch/
+tmp/
+temp/
