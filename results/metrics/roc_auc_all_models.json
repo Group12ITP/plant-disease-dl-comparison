@@ -1,0 +1,22 @@
+{
+  "custom_cnn": {
+    "macro_roc_auc": 0.9999661743073728,
+    "weighted_roc_auc": 0.9999735181309801,
+    "inference_ms_per_image": 1.885597184753137
+  },
+  "resnet50": {
+    "macro_roc_auc": 0.9999139752931139,
+    "weighted_roc_auc": 0.9999347475991358,
+    "inference_ms_per_image": 6.519562718267271
+  },
+  "mobilenetv2": {
+    "macro_roc_auc": 0.9995819142316532,
+    "weighted_roc_auc": 0.9996097105002624,
+    "inference_ms_per_image": 6.054644469638881
+  },
+  "efficientnetb0": {
+    "macro_roc_auc": 0.9998991036795369,
+    "weighted_roc_auc": 0.9999261667719502,
+    "inference_ms_per_image": 5.703298498135073
+  }
+}
