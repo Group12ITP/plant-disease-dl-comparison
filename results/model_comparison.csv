@@ -1,0 +1,5 @@
+model,plantvillage_acc,plantdoc_acc,generalization_gap,params,inference_ms_plantdoc
+Custom Cnn,99.08,15.68,83.4,285030,27.4
+Resnet50,98.6,22.46,76.14,24122022,68.09
+Mobilenetv2,96.13,23.73,72.4,2595686,93.16
+Efficientnetb0,98.36,25.85,72.51,4387273,89.4

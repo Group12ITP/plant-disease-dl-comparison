@@ -1,0 +1,7 @@
+{
+  "finetuned_accuracy": 0.3627450980392157,
+  "baseline_accuracy": 0.2585,
+  "improvement_pp": 10.424509803921566,
+  "ft_samples": 134,
+  "eval_samples": 102
+}
